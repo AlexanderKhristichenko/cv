@@ -1,0 +1,17 @@
+.photo {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.username {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text {
+  color: #fff;
+  margin-top: 20px;
+  line-height: 24px;
+}
