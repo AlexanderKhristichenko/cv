@@ -1,5 +1,4 @@
 import userPhoto from "./assets/img/user.png";
-import { Telegram, Envelop, Skype } from "@styled-icons/icomoon";
 
 const data = {
   userPhoto,
@@ -8,14 +7,14 @@ const data = {
   contacts: [
     {
       id: "con1",
-      icon: Envelop,
+      icon: "icon-envelop",
       subtitle: "Email",
       desc: "alexander.khristichenko@gmail.com",
       isLink: false,
     },
     {
       id: "con2",
-      icon: Telegram,
+      icon: "icon-telegram",
       subtitle: "Telegram",
       link: "https://t.me/F_webdev",
       desc: "https://t.me/F_webdev",
@@ -23,7 +22,7 @@ const data = {
     },
     {
       id: "con3",
-      icon: Skype,
+      icon: "icon-skype",
       subtitle: "Skype",
       link: "https://join.skype.com/invite/l4ToQg5T1O1y",
       desc: "webartcoder",
