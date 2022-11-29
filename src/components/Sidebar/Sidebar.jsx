@@ -1,15 +1,18 @@
 import Divider from "../UI/Divider";
-import classes from "./Sidebar.module.css";
+import styles from "./Sidebar.module.css";
+import SidebarContacts from "./SidebarContacts";
 import SidebarUser from "./SidebarUser";
 
 const Sidebar = ({ data }) => {
   return (
-    <aside className={classes.sidebar}>
+    <aside className={styles.sidebar}>
       <SidebarUser
         photo={data.userPhoto}
         username={data.username}
         text={data.text}
       />
+      <Divider />
+      <SidebarContacts contacts={data.contacts} />
       <Divider />
     </aside>
   );

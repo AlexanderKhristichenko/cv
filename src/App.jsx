@@ -1,10 +1,10 @@
-import classes from "./App.module.css";
+import styles from "./App.module.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import data from "./data";
 
 const App = () => {
   return (
-    <div className={classes.wrapper}>
+    <div className={styles.wrapper}>
       <Sidebar data={data} />
     </div>
   );

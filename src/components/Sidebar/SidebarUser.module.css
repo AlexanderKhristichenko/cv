@@ -4,10 +4,11 @@
   margin-right: auto;
 }
 
-.username {
+h2.username {
   color: #fff;
   margin-top: 20px;
   text-align: center;
+  font-size: 24px;
 }
 
 .text {

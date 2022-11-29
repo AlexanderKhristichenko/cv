@@ -9,8 +9,9 @@ const data = {
       id: "con1",
       icon: "icon-envelop",
       subtitle: "Email",
+      link: "alexander.khristichenko@gmail.com",
       desc: "alexander.khristichenko@gmail.com",
-      isLink: false,
+      isMail: true,
     },
     {
       id: "con2",
@@ -18,7 +19,7 @@ const data = {
       subtitle: "Telegram",
       link: "https://t.me/F_webdev",
       desc: "https://t.me/F_webdev",
-      isLink: true,
+      isMail: false,
     },
     {
       id: "con3",
@@ -26,7 +27,7 @@ const data = {
       subtitle: "Skype",
       link: "https://join.skype.com/invite/l4ToQg5T1O1y",
       desc: "webartcoder",
-      isLink: true,
+      isMail: false,
     },
   ],
   social: [
