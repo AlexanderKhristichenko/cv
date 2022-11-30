@@ -56,9 +56,21 @@ img {
 .icon-envelop:before {
   content: "\e945";
 }
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
 .icon-telegram:before {
   content: "\ea95";
 }
 .icon-skype:before {
   content: "\eac5";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-github:before {
+  content: "\eab0";
 }

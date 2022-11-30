@@ -1,4 +1,7 @@
 import userPhoto from "./assets/img/user.png";
+import englishFlag from "./assets/img/english.png";
+import ukraineFlag from "./assets/img/ukraine.png";
+import russianFlag from "./assets/img/russian.png";
 
 const data = {
   userPhoto,
@@ -29,48 +32,72 @@ const data = {
       desc: "webartcoder",
       isMail: false,
     },
+    {
+      id: "con4",
+      icon: "icon-github",
+      subtitle: "Github",
+      link: "https://github.com/AlexanderKhristichenko?tab=repositories",
+      desc: "AlexanderKhristichenko",
+      isMail: false,
+    },
   ],
-  social: [
+  socials: [
     {
       id: "soc1",
-      icon: "",
-      title: "",
-      desc: "",
+      icon: "icon-facebook",
+      subtitle: "Facebook",
+      link: "https://www.facebook.com/profile.php?id=100006207426671",
+      desc: "facebook.com/profile",
     },
     {
       id: "soc2",
-      icon: "",
-      title: "",
-      desc: "",
+      icon: "icon-instagram",
+      subtitle: "Instagram",
+      link: "https://www.instagram.com/aleksandr_khristichenko/",
+      desc: "instagram.com/aleksandr",
     },
     {
       id: "soc3",
-      icon: "",
-      title: "",
-      desc: "",
+      icon: "icon-linkedin2",
+      subtitle: "Linkedin",
+      link: "https://www.linkedin.com/in/alexander-k-9a608b19a/",
+      desc: "linkedin.com/in/alexander",
     },
   ],
   languages: [
     {
       id: "lan1",
-      icon: "",
-      title: "",
-      desc: "",
+      img: englishFlag,
+      subtitle: "English",
+      desc: "Elementary",
     },
     {
       id: "lan2",
-      icon: "",
-      title: "",
-      desc: "",
+      img: ukraineFlag,
+      subtitle: "Ukranian",
+      desc: "Proficient",
     },
     {
       id: "lan3",
-      icon: "",
-      title: "",
-      desc: "",
+      img: russianFlag,
+      subtitle: "Russian",
+      desc: "Proficient",
     },
   ],
-  hobbies: ["Gaming", "Travelling", "Music"],
+  hobbies: [
+    {
+      id: "hob1",
+      name: "Gaming",
+    },
+    {
+      id: "hob2",
+      name: "Travelling",
+    },
+    {
+      id: "hob3",
+      name: "Music",
+    },
+  ],
 };
 
 export default data;

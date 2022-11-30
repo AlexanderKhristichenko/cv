@@ -1,3 +1,17 @@
+.info_box {
+  margin-top: 20px;
+}
+
+.info_box h2,
+.info_box h3 {
+  font-size: 14px;
+  color: #fff;
+}
+
+.info_box p {
+  color: #fff;
+}
+
 .container {
   margin-top: 20px;
   display: flex;
@@ -23,6 +37,7 @@
 .link {
   color: #fff;
   transition: 0.3s;
+  display: block;
 }
 
 .link:hover {
