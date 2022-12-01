@@ -1,4 +1,4 @@
-import UserInfoBox from "../UI/UserInfoBox";
+import UserInfoBox from "../modules/UserInfoBox";
 
 const SidebarContacts = ({ contacts }) => {
   return <UserInfoBox title="Contacts" items={contacts} />;
