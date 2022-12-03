@@ -98,6 +98,40 @@ const data = {
       name: "Music",
     },
   ],
+  workExperience: [
+    {
+      id: "work1",
+      date: "Aug 2019 - Dec 2021",
+      logo: "https://findicons.com/files/icons/828/clear_bubble/256/google_g_logo_webtreatsetc.png",
+      title: "BoxOut Studio",
+      subtitle: "Creative Designer",
+      desc: "Responsible for creatives like social media posts, print media designs, and UI UX for websites and Applications. Worked on different kinds of projects which include international clients like KIWISENS, Innovosens, etc.",
+    },
+    {
+      id: "work2",
+      date: "Aug 2019 - Dec 2021",
+      logo: "https://findicons.com/files/icons/828/clear_bubble/256/google_g_logo_webtreatsetc.png",
+      title: "BoxOut Studio",
+      subtitle: "Creative Designer",
+      desc: "Responsible for creatives like social media posts, print media designs, and UI UX for websites and Applications. Worked on different kinds of projects which include international clients like KIWISENS, Innovosens, etc.",
+    },
+    {
+      id: "work3",
+      date: "Aug 2019 - Dec 2021",
+      logo: "https://findicons.com/files/icons/828/clear_bubble/256/google_g_logo_webtreatsetc.png",
+      title: "BoxOut Studio",
+      subtitle: "Creative Designer",
+      desc: "Responsible for creatives like social media posts, print media designs, and UI UX for websites and Applications. Worked on different kinds of projects which include international clients like KIWISENS, Innovosens, etc.",
+    },
+    {
+      id: "work4",
+      date: "Aug 2019 - Dec 2021",
+      logo: "https://findicons.com/files/icons/828/clear_bubble/256/google_g_logo_webtreatsetc.png",
+      title: "BoxOut Studio",
+      subtitle: "Creative Designer",
+      desc: "Responsible for creatives like social media posts, print media designs, and UI UX for websites and Applications. Worked on different kinds of projects which include international clients like KIWISENS, Innovosens, etc.",
+    },
+  ],
 };
 
 export default data;

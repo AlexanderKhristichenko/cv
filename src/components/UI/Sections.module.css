@@ -1,0 +1,36 @@
+.section {
+  display: flex;
+}
+
+.step {
+  margin-right: 50px;
+  position: relative;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #5531a7;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+
+.line {
+  width: 3px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.info {
+  margin-top: 20px;
+}

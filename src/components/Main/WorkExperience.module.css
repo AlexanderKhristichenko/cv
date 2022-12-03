@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.step {
+  position: relative;
+  margin-right: 20px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.line {
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info {
+  width: 100%;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.titles {
+  margin-left: 20px;
+  width: 115px;
+}
+
+.titles h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.titles h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.txt {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  align-self: center;
+}
