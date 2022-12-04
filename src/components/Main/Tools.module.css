@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  flex: 1 1 100px;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card figcaption {
+  margin-top: 20px;
+  font-weight: bold;
+}
