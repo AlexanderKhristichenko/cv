@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 220px;
+  max-width: 400px;
+}
+
+.title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.desc {
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.btn {
+  color: #5531a7;
+  background-color: #fff;
+  display: block;
+  padding: 10px 0;
+  width: 200px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #5531a7;
+  color: #fff;
+}
+
+.more {
+  background-color: #5531a7;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.more:hover {
+  background-color: #fff;
+  color: #5531a7;
+}
