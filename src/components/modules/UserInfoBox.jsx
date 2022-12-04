@@ -16,7 +16,8 @@ const UserInfoBox = ({ title, items }) => {
           <a
             className={styles.link}
             href={item.isMail ? `mailto:${item.link}` : item.link}
-            target="_black"
+            target="_blank"
+            rel="noreferrer"
           >
             {item.desc}
           </a>

@@ -169,6 +169,22 @@ const data = {
       title: "Figma",
     },
   ],
+  projects: [
+    {
+      id: "proj1",
+      img: "https://via.placeholder.com/150",
+      title: "Landing Page",
+      desc: "Creative Designer with 4+ years of experience in the graphic design & UI/UX industry. Extensive experience with conceptualizing and managing digital marketing campaigns over social media and UI/UX for various apps & websites. Specializes in rebranding projects, where vast knowledge of design, marketing, and Team management can be applied. Drafts own ideas using programs such as Figma and Illustrator.",
+      link: "google.com",
+    },
+    {
+      id: "proj2",
+      img: "https://via.placeholder.com/150",
+      title: "Landing Page",
+      desc: "Creative Designer with 4+ years of experience in the graphic design & UI/UX industry. Extensive experience with conceptualizing and managing digital marketing campaigns over social media and UI/UX for various apps & websites. Specializes in rebranding projects, where vast knowledge of design, marketing, and Team management can be applied. Drafts own ideas using programs such as Figma and Illustrator.",
+      link: "google.com",
+    },
+  ],
 };
 
 export default data;
