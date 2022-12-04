@@ -132,6 +132,33 @@ const data = {
       desc: "Responsible for creatives like social media posts, print media designs, and UI UX for websites and Applications. Worked on different kinds of projects which include international clients like KIWISENS, Innovosens, etc.",
     },
   ],
+  tools: [
+    {
+      id: "tool1",
+      logo: "https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png",
+      title: "Figma",
+    },
+    {
+      id: "tool2",
+      logo: "https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png",
+      title: "Figma",
+    },
+    {
+      id: "tool3",
+      logo: "https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png",
+      title: "Figma",
+    },
+    {
+      id: "tool4",
+      logo: "https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png",
+      title: "Figma",
+    },
+    {
+      id: "tool5",
+      logo: "https://w7.pngwing.com/pngs/911/515/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png",
+      title: "Figma",
+    },
+  ],
 };
 
 export default data;
