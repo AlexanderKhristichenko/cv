@@ -4,6 +4,18 @@
   padding: 20px;
 }
 
-h1 {
+.main h1 {
   margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  .main h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
 }

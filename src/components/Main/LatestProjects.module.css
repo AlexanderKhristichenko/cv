@@ -44,6 +44,7 @@
   background-color: #5531a7;
   color: #fff;
   transition: 0.3s;
+  display: none;
 }
 
 .more:hover {

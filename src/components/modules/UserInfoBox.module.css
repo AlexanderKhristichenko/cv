@@ -8,6 +8,12 @@
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .info_box h2 {
+    font-size: 18px;
+  }
+}
+
 .info_box p {
   color: #fff;
 }
