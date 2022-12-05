@@ -7,6 +7,12 @@
   position: relative;
 }
 
+@media (max-width: 576px) {
+  .step {
+    margin-right: 15px;
+  }
+}
+
 .circle {
   width: 30px;
   height: 30px;
@@ -29,6 +35,12 @@
   font-size: 30px;
   font-weight: bold;
   color: #fff;
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 24px;
+  }
 }
 
 .info {

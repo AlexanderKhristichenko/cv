@@ -3,3 +3,16 @@
   background-color: #adadad;
   padding: 20px;
 }
+
+@media (max-width: 1200px) {
+  .sidebar {
+    min-width: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-width: 320px;
+  }
+}
