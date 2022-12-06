@@ -10,17 +10,24 @@
   max-width: 400px;
 }
 
+.figcaption {
+  display: flex;
+  flex-direction: column;
+}
+
 .title {
   margin-top: 20px;
   text-align: center;
 }
 
 .desc {
+  height: 75px;
   margin-top: 20px;
   line-height: 24px;
 }
 
 .btn {
+  height: 40px;
   color: #5531a7;
   background-color: #fff;
   display: block;
@@ -32,6 +39,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
+  justify-self: flex-end;
   transition: 0.3s;
 }
 

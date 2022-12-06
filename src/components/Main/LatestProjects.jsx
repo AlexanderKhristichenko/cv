@@ -5,7 +5,7 @@ const LatestProjects = ({ items }) => {
     <div key={item.id} className={styles.card}>
       <figure>
         <img src={item.img} alt={item.title} />
-        <figcaption>
+        <figcaption className={styles.figcaption}>
           <h3 className={styles.title}>{item.title}</h3>
           <p className={styles.desc}>{item.desc}</p>
           <a

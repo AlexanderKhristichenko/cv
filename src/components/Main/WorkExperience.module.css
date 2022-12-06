@@ -29,12 +29,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-}
-
-@media (max-width: 1200px) {
-  .box {
-    flex-direction: column;
-  }
+  flex-direction: column;
 }
 
 .info {
@@ -65,7 +60,7 @@
 
 .titles {
   margin-left: 20px;
-  width: 115px;
+  width: auto;
 }
 
 .titles h3 {
@@ -76,6 +71,13 @@
 .titles h4 {
   font-size: 14px;
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .titles h3,
+  .titles h4 {
+    text-align: center;
+  }
 }
 
 .txt {
