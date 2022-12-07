@@ -1,9 +1,6 @@
-import userPhoto from "./assets/img/user.png";
 import englishFlag from "./assets/img/english.png";
 import ukraineFlag from "./assets/img/ukraine.png";
 import russianFlag from "./assets/img/russian.png";
-import photographer from "./assets/img/photographer.png";
-import amazing from "./assets/img/amazing.png";
 import html from "./assets/img/html.png";
 import css from "./assets/img/css.png";
 import js from "./assets/img/js.png";
@@ -26,7 +23,7 @@ import solidopinion from "./assets/img/solidopinion.png";
 import infovision from "./assets/img/infovision.png";
 
 const data = {
-  userPhoto,
+  userPhoto: "https://alexanderkhristichenko.github.io/cv/media/user.png",
   username: "Olexander Khrystychenko",
   text: "Creative front-end developer with 5+ years of web development experience. Extensive experience in the creation of landing pages, development of web applications, online store, adaptability for mobile devices, etc. Specializes in the development of sites and web applications, where you can apply the vast knowledge of development.",
   contacts: [
@@ -263,14 +260,14 @@ const data = {
   projects: [
     {
       id: "proj1",
-      img: photographer,
+      img: "https://alexanderkhristichenko.github.io/cv/media/photographer.png",
       title: "A.Smith Photographer (Portfolio)",
       desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS), JavaScript",
       link: "https://alexanderkhristichenko.github.io/portfolio/photographer/",
     },
     {
       id: "proj2",
-      img: amazing,
+      img: "https://alexanderkhristichenko.github.io/cv/media/amazing.png",
       title: "Amazing Landing Page",
       desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS)",
       link: "https://alexanderkhristichenko.github.io/portfolio/amazing/",
