@@ -1,29 +1,36 @@
-import englishFlag from "./assets/img/english.png";
-import ukraineFlag from "./assets/img/ukraine.png";
-import russianFlag from "./assets/img/russian.png";
-import html from "./assets/img/html.png";
-import css from "./assets/img/css.png";
-import js from "./assets/img/js.png";
-import sass from "./assets/img/sass.png";
-import less from "./assets/img/less.png";
-import styledComponents from "./assets/img/styled-components.png";
-import jQuery from "./assets/img/jquery.png";
-import react from "./assets/img/react.png";
-import vue from "./assets/img/vue.png";
-import bootstrap from "./assets/img/bootstrap.png";
-import photoshop from "./assets/img/photoshop.png";
-import figma from "./assets/img/figma.png";
-import avocode from "./assets/img/avocode.png";
-import gulp from "./assets/img/gulp.png";
-import git from "./assets/img/git.png";
-import jira from "./assets/img/jira.png";
-import foxtrot from "./assets/img/foxtrot.png";
-import insticator from "./assets/img/insticator.png";
-import solidopinion from "./assets/img/solidopinion.png";
-import infovision from "./assets/img/infovision.png";
+import userPhoto from "./assets/img/user.png";
+// ! Lang Icon
+import englishFlag from "./assets/img/LangIcon/english.png";
+import ukraineFlag from "./assets/img/LangIcon/ukraine.png";
+import russianFlag from "./assets/img/LangIcon/russian.png";
+// ! Work Experience
+import foxtrot from "./assets/img/WorkExperience/foxtrot.png";
+import insticator from "./assets/img/WorkExperience/insticator.png";
+import solidopinion from "./assets/img/WorkExperience/solidopinion.png";
+import infovision from "./assets/img/WorkExperience/infovision.png";
+// ! Tools & Skills
+import html from "./assets/img/Tools/html.png";
+import css from "./assets/img/Tools/css.png";
+import js from "./assets/img/Tools/js.png";
+import sass from "./assets/img/Tools/sass.png";
+import less from "./assets/img/Tools/less.png";
+import styledComponents from "./assets/img/Tools/styled-components.png";
+import jQuery from "./assets/img/Tools/jquery.png";
+import react from "./assets/img/Tools/react.png";
+import vue from "./assets/img/Tools/vue.png";
+import bootstrap from "./assets/img/Tools/bootstrap.png";
+import photoshop from "./assets/img/Tools/photoshop.png";
+import figma from "./assets/img/Tools/figma.png";
+import avocode from "./assets/img/Tools/avocode.png";
+import gulp from "./assets/img/Tools/gulp.png";
+import git from "./assets/img/Tools/git.png";
+import jira from "./assets/img/Tools/jira.png";
+// ! Projects
+import photographer from "./assets/img/Projects/photographer.png";
+import todo from "./assets/img/Projects/todolist.png";
 
 const data = {
-  userPhoto: "https://alexanderkhristichenko.github.io/cv/media/user.png",
+  userPhoto,
   username: "Olexander Khrystychenko",
   text: "Creative front-end developer with 5+ years of web development experience. Extensive experience in the creation of landing pages, development of web applications, online store, adaptability for mobile devices, etc. Specializes in the development of sites and web applications, where you can apply the vast knowledge of development.",
   contacts: [
@@ -144,7 +151,7 @@ const data = {
   workExperience: [
     {
       id: "work1",
-      date: "Aug 2019 - Present",
+      date: "Aug 2021 - Dec 2022",
       logo: foxtrot,
       title: "Foxtrot",
       subtitle: "Front-end Developer",
@@ -260,17 +267,17 @@ const data = {
   projects: [
     {
       id: "proj1",
-      img: "https://alexanderkhristichenko.github.io/cv/media/photographer.png",
-      title: "A.Smith Photographer (Portfolio)",
-      desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS), JavaScript",
-      link: "https://alexanderkhristichenko.github.io/portfolio/photographer/",
+      img: todo,
+      title: "To-Do List ",
+      desc: "The web application was created using the following tools: HTML, CSS(Module), JavaScript(React)",
+      link: "https://alexanderkhristichenko.github.io/Todo-List/",
     },
     {
       id: "proj2",
-      img: "https://alexanderkhristichenko.github.io/cv/media/amazing.png",
-      title: "Amazing Landing Page",
-      desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS)",
-      link: "https://alexanderkhristichenko.github.io/portfolio/amazing/",
+      img: photographer,
+      title: "A.Smith Photographer (Portfolio)",
+      desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS), JavaScript",
+      link: "https://alexanderkhristichenko.github.io/portfolio/photographer/",
     },
   ],
 };

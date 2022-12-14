@@ -32,15 +32,11 @@ img {
 
 @font-face {
   font-family: "icomoon";
-  src: url("https://alexanderkhristichenko.github.io/cv/media/icomoon.eot");
-  src: url("https://alexanderkhristichenko.github.io/cv/media/icomoon.eot")
-      format("embedded-opentype"),
-    url("https://alexanderkhristichenko.github.io/cv/media/icomoon.ttf")
-      format("truetype"),
-    url("https://alexanderkhristichenko.github.io/cv/media/icomoon.woff")
-      format("woff"),
-    url("https://alexanderkhristichenko.github.io/cv/media/icomoon.svg")
-      format("svg");
+  src: url("./assets/fonts/icomoon/icomoon.eot");
+  src: url("./assets/fonts/icomoon/icomoon.eot") format("embedded-opentype"),
+    url("./assets/fonts/icomoon/icomoon.ttf") format("truetype"),
+    url("./assets/fonts/icomoon/icomoon.woff") format("woff"),
+    url("./assets/fonts/icomoon/icomoon.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
