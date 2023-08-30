@@ -289,7 +289,7 @@ const data = {
     },
     {
       id: "proj3",
-      iimg: todoList,
+      img: todoList,
       title: "To-Do List",
       desc: "The web application was created using the following tools: HTML, CSS(Module), JavaScript(React)",
       link: "https://alexanderkhristichenko.github.io/Todo-List/",
