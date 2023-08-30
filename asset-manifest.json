@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.032eeec0.css",
-    "main.js": "/cv/static/js/main.74094abf.js",
+    "main.css": "/cv/static/css/main.e98335ac.css",
+    "main.js": "/cv/static/js/main.6ec2cb51.js",
+    "static/media/BOMI-School.png": "/cv/static/media/BOMI-School.6a2a8a22e1bc29773f79.png",
     "static/media/photographer.png": "/cv/static/media/photographer.04f7d67e32c70ffeade5.png",
+    "static/media/demo-wizard.png": "/cv/static/media/demo-wizard.7ab8cd3c3025c32d8b34.png",
     "static/media/todolist.png": "/cv/static/media/todolist.4542942a62874e3fe7b0.png",
     "static/media/user.png": "/cv/static/media/user.bc455908ecff2e425a95.png",
-    "static/media/icomoon.svg": "/cv/static/media/icomoon.ab5e5fc2997f4c4eafc0.svg",
+    "static/media/icomoon.svg": "/cv/static/media/icomoon.dd3d47f91335dcf1edd7.svg",
     "static/media/icomoon.eot": "/cv/static/media/icomoon.b1b537490c69e55f0f17.eot",
     "static/media/icomoon.woff": "/cv/static/media/icomoon.69d1914cedd93948b4bd.woff",
     "static/media/icomoon.ttf": "/cv/static/media/icomoon.c0b0726991667efa98f9.ttf",
     "index.html": "/cv/index.html",
-    "main.032eeec0.css.map": "/cv/static/css/main.032eeec0.css.map",
-    "main.74094abf.js.map": "/cv/static/js/main.74094abf.js.map"
+    "main.e98335ac.css.map": "/cv/static/css/main.e98335ac.css.map",
+    "main.6ec2cb51.js.map": "/cv/static/js/main.6ec2cb51.js.map"
   },
   "entrypoints": [
-    "static/css/main.032eeec0.css",
-    "static/js/main.74094abf.js"
+    "static/css/main.e98335ac.css",
+    "static/js/main.6ec2cb51.js"
   ]
 }
