@@ -25,9 +25,12 @@ import avocode from "./assets/img/Tools/avocode.png";
 import gulp from "./assets/img/Tools/gulp.png";
 import git from "./assets/img/Tools/git.png";
 import jira from "./assets/img/Tools/jira.png";
+import webflow from "./assets/img/Tools/webflow.png";
 // ! Projects
 import photographer from "./assets/img/Projects/photographer.png";
-import todo from "./assets/img/Projects/todolist.png";
+import todoList from "./assets/img/Projects/todolist.png";
+import bomiSchool from "./assets/img/Projects/BOMI-School.png";
+import demoWizard from "./assets/img/Projects/demo-wizard.png";
 
 const data = {
   userPhoto,
@@ -230,36 +233,41 @@ const data = {
     },
     {
       id: "tool10",
+      logo: webflow,
+      title: "Webflow",
+    },
+    {
+      id: "tool11",
       logo: bootstrap,
       title: "Bootstrap",
     },
     {
-      id: "tool11",
+      id: "tool12",
       logo: photoshop,
       title: "Photoshop",
     },
     {
-      id: "tool12",
+      id: "tool13",
       logo: figma,
       title: "Figma",
     },
     {
-      id: "tool13",
+      id: "tool14",
       logo: avocode,
       title: "Avocode",
     },
     {
-      id: "tool14",
+      id: "tool15",
       logo: gulp,
       title: "Gulp",
     },
     {
-      id: "tool15",
+      id: "tool16",
       logo: git,
       title: "Git",
     },
     {
-      id: "tool16",
+      id: "tool17",
       logo: jira,
       title: "Jira",
     },
@@ -267,13 +275,27 @@ const data = {
   projects: [
     {
       id: "proj1",
-      img: todo,
-      title: "To-Do List ",
+      img: demoWizard,
+      title: "Demo Wizard",
+      desc: "The web application was created using the following tools: HTML, CSS, JavaScript, Webflow",
+      link: "https://www.demo-wizard.com/",
+    },
+    {
+      id: "proj2",
+      img: bomiSchool,
+      title: "BOMI School",
+      desc: "The landing page was created using the following tools: HTML, CSS, JavaScript, Webflow",
+      link: "https://www.bomi.school/",
+    },
+    {
+      id: "proj3",
+      iimg: todoList,
+      title: "To-Do List",
       desc: "The web application was created using the following tools: HTML, CSS(Module), JavaScript(React)",
       link: "https://alexanderkhristichenko.github.io/Todo-List/",
     },
     {
-      id: "proj2",
+      id: "proj4",
       img: photographer,
       title: "A.Smith Photographer (Portfolio)",
       desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS), JavaScript",
