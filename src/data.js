@@ -49,8 +49,8 @@ const data = {
       id: "con2",
       icon: "icon-telegram",
       subtitle: "Telegram",
-      link: "https://t.me/F_webdev",
-      desc: "https://t.me/F_webdev",
+      link: "https://t.me/Olexander_Khrystychenko",
+      desc: "https://t.me/Olexander_Khrystychenko",
       isMail: false,
     },
     {
