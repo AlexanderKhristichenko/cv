@@ -31,6 +31,7 @@ import photographer from "./assets/img/Projects/photographer.png";
 import todoList from "./assets/img/Projects/todolist.png";
 import bomiSchool from "./assets/img/Projects/BOMI-School.png";
 import demoWizard from "./assets/img/Projects/demo-wizard.png";
+import createx from "./assets/img/Projects/createx.png";
 
 const data = {
   userPhoto,
@@ -274,6 +275,13 @@ const data = {
   ],
   projects: [
     {
+      id: "proj4",
+      img: createx,
+      title: "CreateX",
+      desc: "The multipage site was created using the following tools: HTML, CSS(SASS/SCSS), JavaScript",
+      link: "https://alexanderkhristichenko.github.io/createx/",
+    },
+    {
       id: "proj1",
       img: demoWizard,
       title: "Demo Wizard",
@@ -293,13 +301,6 @@ const data = {
       title: "To-Do List",
       desc: "The web application was created using the following tools: HTML, CSS(Module), JavaScript(React)",
       link: "https://alexanderkhristichenko.github.io/Todo-List/",
-    },
-    {
-      id: "proj4",
-      img: photographer,
-      title: "A.Smith Photographer (Portfolio)",
-      desc: "The landing page was created using the following tools: HTML, CSS(SASS/SCSS), JavaScript",
-      link: "https://alexanderkhristichenko.github.io/portfolio/photographer/",
     },
   ],
 };
