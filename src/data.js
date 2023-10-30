@@ -26,8 +26,9 @@ import gulp from "./assets/img/Tools/gulp.png";
 import git from "./assets/img/Tools/git.png";
 import jira from "./assets/img/Tools/jira.png";
 import webflow from "./assets/img/Tools/webflow.png";
+import nextjs from "./assets/img/Tools/nextjs.png";
+import redux from "./assets/img/Tools/redux.png";
 // ! Projects
-import photographer from "./assets/img/Projects/photographer.png";
 import todoList from "./assets/img/Projects/todolist.png";
 import bomiSchool from "./assets/img/Projects/BOMI-School.png";
 import demoWizard from "./assets/img/Projects/demo-wizard.png";
@@ -67,7 +68,7 @@ const data = {
       icon: "icon-github",
       subtitle: "Github",
       link: "https://github.com/AlexanderKhristichenko?tab=repositories",
-      desc: "AlexanderKhristichenko",
+      desc: "https://github.com/AlexanderKhristichenko",
       isMail: false,
     },
   ],
@@ -99,7 +100,7 @@ const data = {
       id: "lan1",
       img: englishFlag,
       subtitle: "English",
-      desc: "Elementary",
+      desc: "Pre-Intermediate",
     },
     {
       id: "lan2",
@@ -229,46 +230,56 @@ const data = {
     },
     {
       id: "tool9",
+      logo: nextjs,
+      title: "Next.js",
+    },
+    {
+      id: "tool10",
+      logo: redux,
+      title: "Redux",
+    },
+    {
+      id: "tool11",
       logo: vue,
       title: "Vue",
     },
     {
-      id: "tool10",
+      id: "tool12",
       logo: webflow,
       title: "Webflow",
     },
     {
-      id: "tool11",
+      id: "tool13",
       logo: bootstrap,
       title: "Bootstrap",
     },
     {
-      id: "tool12",
+      id: "tool14",
       logo: photoshop,
       title: "Photoshop",
     },
     {
-      id: "tool13",
+      id: "tool15",
       logo: figma,
       title: "Figma",
     },
     {
-      id: "tool14",
+      id: "tool16",
       logo: avocode,
       title: "Avocode",
     },
     {
-      id: "tool15",
+      id: "tool17",
       logo: gulp,
       title: "Gulp",
     },
     {
-      id: "tool16",
+      id: "tool18",
       logo: git,
       title: "Git",
     },
     {
-      id: "tool17",
+      id: "tool19",
       logo: jira,
       title: "Jira",
     },
